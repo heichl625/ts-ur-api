@@ -7,8 +7,8 @@ import { trimObject } from 'src/helper/object-trim';
 export class OpenaiService {
 
     private configuration = new Configuration({
-        organization: "org-Dv8dlZarHqVpmJ4jaDXjGkSk",
-        apiKey: "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"
+        organization: "",
+        apiKey: ""
     });
 
     private openai = new OpenAIApi(this.configuration);
